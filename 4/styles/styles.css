@@ -49,7 +49,7 @@ body {
 /*MAIN*/
 
 .main-index {
-  background-image: url(../images/general-images/rocks-sedona.jpg);
+  background-image: url("../images/general-images/rocks-sedona.jpg");
   background-color: #ffffff;
   color: #000000;
   text-align: center;
@@ -84,7 +84,7 @@ body {
   line-height: 28px;
   color: #ffffff;
   text-align: center;
-  background-color: #82B3D3;
+  background-color: #82b3d3;
   text-transform: none
 }
 
@@ -119,7 +119,7 @@ body {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
-.advantages-item:nth-child(odd) {
+.advantages-item:nth-child(even) {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .recommendations-item:nth-child(odd) {
-  background-color: #83B3D31F;
+  background-color: #83b3d31f;
 }
 
 .recommendations-title {
@@ -189,7 +189,7 @@ body {
 /*SUBSCRIBE*/
 
 .subscribe {
-  background-image: url(../images/general-images/Subscribe.jpg);
+  background-image: url("../images/general-images/subscribe.jpg");
   background-size: 100% auto;
 }
 
@@ -234,7 +234,7 @@ body {
 /*catalog_header*/
 
 .main-inner {
-  background-image: url(../images/general-images/filter_catalog.jpg);
+  background-image: url("../images/general-images/filter-catalog.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -309,6 +309,6 @@ body {
   font-size: 20px;
   line-height: 36px;
   color: #ffffff;
-  background-color: #82B3D3;
+  background-color: #82b3d3;
   text-decoration: none;
 }
