@@ -44,6 +44,11 @@ body {
 
 /*NAVIGATION*/
 
+.main-header-general {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .navigation-link {
   font-weight: 700;
   font-size: 20px;
@@ -56,36 +61,34 @@ body {
 
 .navigation {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
 }
 
 .navigation-list {
   width: 450px;
-  margin: 0;
-  padding: 0;
 }
 
 .navigation-logo {
   width: 140px;
+  height: 65px;
   margin-right: 30px;
 }
 
 .navigation-user {
   max-width: 350px;
-  margin-left: auto;
 }
 
 /*MAIN*/
 
-.main-index {
+.background-sedona-rocks {
   background-image: url("../images/general-images/rocks-sedona.jpg");
+  height: 485px;
   background-color: #ffffff;
   color: #000000;
   text-align: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
 
 .main-container {
   flex-grow: 1;
@@ -143,6 +146,7 @@ body {
 
 
 .advantages-item-wide {
+  display: flex;
   width: 100%;
   font-weight: 400;
   font-size: 24px;
@@ -192,11 +196,14 @@ body {
 
 .recommendations-list {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
 
 .recommendations-item {
+  width: 400px;
+  height: 384px;
   background-color: #ffffff;
 }
 
@@ -291,26 +298,23 @@ body {
 
 /*FOOTER*/
 
-.page-footer-container {
+.page-footer {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
+  padding-left: 70px;
+  padding-right: 70px;
 }
-
 
 .social-list {
   width: 150px;
-  margin-left: 70px;
 }
 
 .footer-contacts {
   width: 720px;
-  margin-left: 42px;
+  text-align: center;
 }
 
 .footer-label-site {
   width: 120px;
-  margin-right: 70px;
 }
 
 .contacts-phone {
@@ -339,6 +343,7 @@ body {
   color: #ffffff;
 }
 
+
 .breadcrumbs-link {
   font-weight: 400;
   font-size: 16px;
@@ -347,6 +352,11 @@ body {
 }
 
 /*catalog_filter*/
+
+.main-image-container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
 
 .catalog-filter-title {
   font-weight: 700;
@@ -373,7 +383,6 @@ body {
 
 .catalog-filter {
   display: flex;
-  margin-left: 70px;
 }
 
 /*hotels*/
@@ -403,12 +412,11 @@ body {
 .hotels-cards {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  gap: 20px;
 }
 
-.hotels-cards-list {
-  margin-right: 20px;
-}
 
 
 /*pagination*/
