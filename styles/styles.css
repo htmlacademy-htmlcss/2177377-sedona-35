@@ -79,8 +79,9 @@ body {
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
-  width: 450px;
+  width: 340px;
   list-style-type: none;
+  padding: 0;
 }
 
 .navigation-logo {
@@ -92,6 +93,8 @@ body {
   display: flex;
   max-width: 350px;
   list-style-type: none;
+  margin-left: 285px;
+  padding: 0;
 }
 
 
@@ -142,9 +145,7 @@ body {
 }
 
 .advantages-container {
-  margin-top: 92px;
-  margin-left: 85px;
-  margin-right: 85px;
+  padding: 92px 85px 110px;
   width: 400px;
 }
 
@@ -187,9 +188,7 @@ body {
 }
 
 .advantages-item-container {
-  padding-top: 103px;
-  margin-left: 85px;
-  margin-right: 85px;
+  padding: 102px 85px 120px;
 }
 
 
@@ -210,7 +209,7 @@ body {
 
 .advantages-item {
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
@@ -233,7 +232,7 @@ body {
 
 .recommendations-item {
   width: 400px;
-  height: 384px;
+  min-height: 384px;
   background-color: #ffffff;
   list-style-type: none;
 }
@@ -243,9 +242,7 @@ body {
 }
 
 .recommendations-item-container {
-  padding-top: 80px;
-  margin-left: 85px;
-  margin-right: 85px;
+  padding: 80px 85px;
 }
 
 .recommendations-title {
@@ -270,7 +267,7 @@ body {
 
 .hotel-search {
   font-weight: 700;
-  height: 405px;
+  min-height: 405px;
   font-size: 30px;
   line-height: 36px;
   background-color: #ffffff;
@@ -311,7 +308,7 @@ body {
 .subscribe {
   text-align: center;
   height: 415px;
-  background-image: url("../images/general-images/subscribe.jpg");
+  background-image: url("../images/general-images/subscription.jpg");
   background-size: 100% auto;
 }
 
@@ -418,8 +415,8 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  padding-bottom: 40px;
-  padding-top: 8px;
+  margin-bottom: 40px;
+  margin-top: 8px;
   list-style-type: none;
 }
 
@@ -472,11 +469,25 @@ body {
   justify-content: flex-end;
 }
 
-.sorting-container .button {
+.sorting-container-option {
+  display: flex;
+}
+
+.sorting-container-visual {
+  display: flex;
+  padding-right: 70px;
+}
+
+.sorting-container-visual .button {
   width: 48px;
   height: 48px;
   margin-right: 8px;
 }
+
+.sorting-container-visual .button:last-child {
+  margin-right: 0;
+}
+
 
 .select-control {
   margin-right: 70px;
