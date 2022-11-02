@@ -113,21 +113,24 @@
           </section>
         </div>
         <div class="sorting-container">
-          <select class="select-control" aria-label="Сортировка">
-            <option value="cheap">Сначала дешевые</option>
-            <option value="popular">Сначала популярные</option>
-            <option value="expensive">Сначала дорогие</option>
-          </select>
-
-          <a href="#" class="button button-light">
-            <span class="visually-hidden"> Показать карточки</span>
-          </a>
-          <a href="#" class="button">
-            <span class="visually-hidden"> Показать на весь экран</span>
-          </a>
-          <a href="#" class="button">
-            <span class="visually-hidden"> Показать список</span>
-          </a>
+          <div class="sorting-container-option">
+            <select class="select-control" aria-label="Сортировка">
+              <option value="cheap">Сначала дешевые</option>
+              <option value="popular">Сначала популярные</option>
+              <option value="expensive">Сначала дорогие</option>
+            </select>
+          </div>
+          <div class="sorting-container-visual">
+            <a href="#" class="button button-light">
+              <span class="visually-hidden"> Показать карточки</span>
+            </a>
+            <a href="#" class="button">
+              <span class="visually-hidden"> Показать на весь экран</span>
+            </a>
+            <a href="#" class="button">
+              <span class="visually-hidden"> Показать список</span>
+            </a>
+          </div>
         </div>
         <ul class="hotels-cards">
           <li class="hotels-cards-list">
@@ -226,8 +229,9 @@
             <form class="appointent-form" action="https://echo.htmlacademy.ru/" method="post">
               <input class="text" name="appointment-email" type="email" placeholder="Ваш e-mail">
               <button class="button button-subscribe" type="submit">Подписаться</button>
+
+            </form>
           </div>
-          </form>
         </section>
       </main>
 
