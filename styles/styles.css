@@ -133,7 +133,7 @@ body {
 
 
 .navigation-user .navigation-item:nth-child(1) {
-  background-color: #ffffff;
+  background-color: transparent;
   background-image: url("../images/icons/search.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -141,7 +141,7 @@ body {
 }
 
 .navigation-user .navigation-item:nth-child(2) {
-  background-color: #ffffff;
+  background-color: transparent;
   background-image: url("../images/icons/heart.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -159,7 +159,7 @@ body {
     url("../images/general-images/border-for-picture.svg") bottom/50px no-repeat,
     url("../images/general-images/rocks-sedona.jpg") center/cover no-repeat;
   height: 485px;
-  background-color: #ffffff;
+  background-color: #000000;
   color: #000000;
   text-align: center;
   background-repeat: no-repeat;
@@ -212,6 +212,7 @@ body {
 
 .advantages-container-image {
   width: 800px;
+  background-color: #000000;
 }
 
 .advantages-container-general {
@@ -335,17 +336,16 @@ body {
 }
 
 .recommendations-house {
-  background-color: #ffffff;
+  background-color: #000000;
   background-image: url("../images/icons/house.svg");
 }
 
 .recommendations-food {
-  background-color: #ffffff;
   background-image: url("../images/icons/food.svg");
 }
 
 .recommendations-present {
-  background-color: #ffffff;
+  background-color: #000000;
   background-image: url("../images/icons/present.svg");
 }
 
@@ -427,7 +427,7 @@ body {
 .subscribe {
   text-align: center;
   min-height: 415px;
-  background-color: #ffffff;
+  background-color: #000000;
   background-image: url("../images/general-images/subscription.jpg");
   background-size: 100% auto;
 }
@@ -460,6 +460,7 @@ body {
 
 .subscribe-catalog {
   background-image: none;
+  background-color: #ffffff;
 }
 
 .form-font-general,
@@ -597,7 +598,7 @@ body {
 /*catalog_header*/
 
 .main-image-container {
-  background-color: #ffffff;
+  background-color: #000000;
   background-image: url("../images/general-images/filter-catalog.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -772,18 +773,18 @@ body {
 }
 
 .visual-all {
-  background-color: #ffffff;
+  background-color: #000000;
   background-image: url("../images/icons/view-table.svg");
 }
 
 
 .visual-full {
-  background-color: #ffffff;
+  background-color: #000000;
   background-image: url("../images/icons/view-slideshow.svg");
 }
 
 .visual-list {
-  background-color: #ffffff;
+  background-color: #000000;
   background-image: url("../images/icons/view-list.svg");
 }
 
@@ -813,13 +814,12 @@ body {
   background-color: #ffffff;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
-  background-color: #ffffff;
   background-image: url("../images/icons/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 16px center;
   appearance: none;
   margin: 0;
-  margin-right: 65px;
+  margin-right: 60px;
 }
 
 .select-control:hover {
