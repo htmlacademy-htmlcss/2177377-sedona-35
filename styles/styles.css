@@ -131,6 +131,13 @@ body {
   margin-top: 14px;
 }
 
+.navigation-link-to:hover {
+  background-color: #615048;
+}
+
+.navigation-link-to:active {
+  color: rgba(255, 255, 255, 0.3);
+}
 
 .navigation-user .navigation-item:nth-child(1) {
   background-color: transparent;
@@ -438,6 +445,14 @@ body {
   display: inline-block;
 }
 
+.button-all:hover {
+  background-color: #615048;
+}
+
+.button-all:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 /*SUBSCRIBE*/
 
 .subscribe {
@@ -518,6 +533,15 @@ body {
   margin: 0;
 }
 
+.button-subscribe:hover {
+  background-color: #68A2CA;
+}
+
+.button-subscribe:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
 /*FOOTER*/
 
 .page-footer {
@@ -528,6 +552,10 @@ body {
 
 .footer-social {
   width: 142px;
+}
+
+.footer-social-link:hover path {
+  fill: #68a2ca;
 }
 
 .footer-social-link:active {
@@ -882,6 +910,10 @@ body {
   outline: 3px solid #82b3d3;
 }
 
+.button-filter:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 
 
 .button-filter:last-child {
@@ -1155,6 +1187,10 @@ body {
 
 .favourite-active {
   background-color: #7db54f;
+}
+
+.favourite-active:hover {
+  background-color: #6c9e42;
 }
 
 .raiting-stars {
@@ -1455,8 +1491,7 @@ body {
 
 
 button.minus:hover path {
-  opacity: .3;
-  outline: none;
+  fill: #000000;
 }
 
 .minus:focus {
@@ -1464,8 +1499,6 @@ button.minus:hover path {
   border-radius: 4px;
   outline: none;
 }
-
-
 
 
 .plus {
@@ -1479,8 +1512,7 @@ button.minus:hover path {
 }
 
 button.plus:hover path {
-  opacity: .3;
-  outline: none;
+  fill: #000000;
 }
 
 .plus:focus {
@@ -1503,6 +1535,14 @@ button.plus:hover path {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.modal-button:hover {
+  background-color: #68a2ca;
+}
+
+.modal-button:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .search-button:active {
